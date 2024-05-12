@@ -18,3 +18,10 @@ server:
 #    name: demo  this name =fisrt part name of config yml
 #  profiles:
 #    active: t2 this name =secound part name of config yml for example demo-t2.yml
+
+
+#########################config link source
+#go alt+ctrl+shift+s
+#    madules
+#        in the center box select sources
+#            add content root
