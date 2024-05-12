@@ -1,0 +1,11 @@
+spring:
+  application:
+    name : configServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://D:\git-repo  #dar in masir bayad git init shavad
+          default-label: master    #in property ham hatman bayad meghdar dashte bashad
+server:
+  port: 8889
