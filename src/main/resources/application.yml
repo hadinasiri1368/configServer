@@ -9,3 +9,12 @@ spring:
           default-label: master    #in property ham hatman bayad meghdar dashte bashad
 server:
   port: 8889
+
+#########################config client
+#spring:
+#  config:
+#    import: optional:configserver:http://localhost:8889
+#  application:
+#    name: demo  this name =fisrt part name of config yml
+#  profiles:
+#    active: t2 this name =secound part name of config yml for example demo-t2.yml
